@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+    <script type="text/javascript" src="js/main.js" ></script>
+  </head>
+  <body>
+    <div id="container" class="container">
+      <div class="row" id="header">
+        <div class="col-xs-12" id="logo">
+          Country Picker
+        </div>
+      </div>
+      <div class="row" id="content">
+        <div id="map-canvas" class="col-xs-8"></div>
+        <div id="info" class="col-xs-4">
+          <div class="row" id="info-pick">
+              <button type="button" id="pick-button" class="btn btn-default btn-lg">Pick Another</button>
+          </div>
+          <div class="row" id="info-title"><h2>Name</h2></div>
+        </div>
+      </div>
+      <div class="row" id="footer">
+        <div class="col-xs-12">
+          Random country picker by Antoni - 2013
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
